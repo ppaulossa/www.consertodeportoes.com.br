@@ -1,0 +1,2013 @@
+@charset "UTF-8";
+
+@media all and (max-width: 100px) and (min-width: 0px) {
+    body{
+        visibility: hidden;
+    }
+}
+@media all and (max-width: 200px) and (min-width: 100px) {
+    body{
+        visibility:hidden;
+    }
+}
+
+@media all and (max-width: 300px) and (min-width: 200px) {
+    /* --- HEADER */
+    header div.titulo h1{
+        font-size:15px;
+    }
+
+    header div.paragrafo p {
+        font-size:15px;
+    }
+    /*--- HEADER */
+
+    /*--- CONTATOS */
+
+    section address table tr td.texto{
+        font-size:11px;
+        padding:0 30px 0 10px ;
+        left:35px;
+    }
+
+    section address table tr td.imagem{
+        width:25px;
+        height:25px;
+    }
+
+    section address table tr td.imagem img {
+        width:10px;
+        height:10px;
+    }
+    /*--- CONTATOS */
+
+    /*APRESENTAÇÃO*/
+
+    main article div.apresentacao div.apresentacao-horizontal.um h2, main article div.apresentacao div.apresentacao-horizontal2 h2{
+        font-size:8px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal.um h2#titulo-primeiro{
+        padding-right:50px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal.um p, main article div.apresentacao div.apresentacao-horizontal2 p{
+        font-size:6px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal.um p#primeiro{
+        margin-left:-20px;
+        padding-right:50px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal.um  img#homem-indicando{
+        padding-right:50px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal div.orcamento-conteudo{
+        margin-left: -70px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal2 h2{
+        margin-top:-25px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal2 div.atendimento-conteudo{
+        width:100px; /*espaço em branco*/
+        height:1px;
+        margin:0;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img{
+        height: 100px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img#homem-tablet{
+        display:none;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img#homem-serralheiro{
+        position:relative;
+        top:0;
+        height: 60px;
+    }
+
+    /*--- APRESENTAÇÃO */
+
+    /*--- SERVIÇOS */
+
+    main article div.apresentacao div.servicos-container h2.servicos{
+        margin-top:0;
+        font-size:13px;
+    }
+    main article div.apresentacao ul li {
+        font-size:9px;
+        right:0;
+    }
+
+    main article div.apresentacao ul li span {
+        font-size:12px;
+    }
+
+    main article div.apresentacao div.servicos ul.lista-image li img{
+        height:100px;
+    }
+    /*--- SERVIÇOS */
+
+    /*--- MARCAS */
+
+    main article div.apresentacao div.container-marcas{
+        margin-right:60px;
+    }
+    main article div.apresentacao div.container-marcas h2.marcas{
+        font-size:20px;
+    }
+
+    main article div.apresentacao div.container-marcas figure{
+        height: 60px;
+    }
+    main article div.apresentacao div.container-marcas img{
+        height:  60px;
+    }
+    /* --- MARCAS */
+
+    /*--- RESUMO */
+
+    main article div.apresentacao{
+        width:100%;
+    }
+
+    main article div.apresentacao div.resumo div.container-horizontal div#bloco-manutencao{
+        width:35%;
+        margin-left:-30px;
+    }
+
+    main article div.apresentacao div.resumo div.container-vertical.branco {
+        width:95px;
+    }
+
+    main article div.apresentacao div.resumo div.container-vertical div#bloco-portao,    main article div.apresentacao div.resumo div.container-vertical div#bloco-controle {
+        min-width:70px;
+        margin-left:-1px;
+    }
+
+    main article div.apresentacao div.resumo div.container-vertical div#bloco-portao img,    main article div.apresentacao div.resumo div.container-vertical div#bloco-controle img {
+        height:50px;
+    }
+
+    main article div.apresentacao div.resumo h3{
+        font-size:9px;
+    }
+
+    main article div.apresentacao div.resumo p {
+        font-size:8px;
+    }
+
+    main article div.apresentacao div.resumo img#manutencao{
+        height:120px;
+    }
+    main article div.apresentacao div.resumo img#cabo-aco{
+        margin:1px auto;
+        width:160px;
+    }
+
+    main article div.apresentacao div.resumo div.container-horizontal div#bloco-engrenagem{
+        width:80px;
+        margin-right:-5px;
+        margin-left:-2px;
+    }
+    main article div.apresentacao div.resumo img#engrenagem{
+        margin:1px auto;
+        width:75px;
+    }
+    main article div.apresentacao div.resumo div.container-horizontal div#bloco-central{
+        width:80px;
+        margin-right:40px;
+    }
+
+    main article div.apresentacao div.resumo img#central-eletronica{
+        margin: 1px auto;
+        width: 75px;
+    }
+
+    main article div.apresentacao div.resumo div.container-horizontal div#bloco-aco {
+        margin-right:60px;
+    }
+
+    /*--- RESUMO */
+
+    /*--- GOSTOU */
+
+    main article div.apresentacao div.gostou h4{
+        font-size:10px;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal p{
+        font-size:9px;
+        padding-top:25px;
+        padding-left:30px;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal table tr td.imagem-gostou img {
+        height:15px;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal table tr td{
+        font-size: 8px;
+        line-height: 0.01;
+    }
+
+    main article div.apresentacao div.gostou div.gostou-horizontal table{
+        margin-top:40px;
+        margin-right:40px;
+    }
+
+    main article div.apresentacao div.gostou div.gostou-horizontal table tr{
+        margin:0;
+        padding:0;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal img#joinha {
+        padding-left:60px;
+        width:100px;
+        height:55px;
+        padding-top:40px;
+    }
+
+    /*--- GOSTOU */
+
+    /*--- FOOTER */
+    footer div {
+        margin-top:20px;
+        font-size:4px;
+    }
+    div#esquerda{
+        width:23%;
+    }
+    div#centro{
+        width: 49%;
+    }
+    div#direita{
+        width:23%;
+    }
+    /*--- FOOTER */
+
+    /* --- DESENVOLVEDOR */
+    #desenvolvedor {
+        min-width: 200px;
+        font-size: 9px;
+    }
+    /* --- DESENVOLVEDOR */
+
+    /* --- NÃO ATENDO EM CONDOMINIOS */
+    .janela-conteudo h5 {
+        font-size:15px;
+        padding-bottom:20px;
+    }
+    .janela-conteudo p {
+        font-size:8px;
+    }
+    /* --- NÃO ATENDO EM CONDOMINIOS */
+
+    section div.slider div.slider-wrapper{
+        height:85px;
+    }
+}
+@media all and (max-width: 330px) and (min-width: 300px) {
+    /* --- HEADER */
+    header div.titulo h1{
+        font-size:15px;
+    }
+
+    header div.paragrafo p {
+        font-size:15px;
+    }
+    /*--- HEADER */
+
+    /*--- CONTATOS */
+
+    section address table tr td.texto{
+        font-size:11px;
+        padding:0 30px 0 10px ;
+        left:35px;
+    }
+
+    section address table tr td.imagem{
+        width:25px;
+        height:25px;
+    }
+
+    section address table tr td.imagem img {
+        width:10px;
+        height:10px;
+    }
+    /*--- CONTATOS */
+
+    /*APRESENTAÇÃO*/
+
+    main article div.apresentacao div.apresentacao-horizontal.um h2, main article div.apresentacao div.apresentacao-horizontal2 h2{
+        font-size:8px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal.um h2#titulo-primeiro{
+        padding-right:50px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal.um p, main article div.apresentacao div.apresentacao-horizontal2 p{
+        font-size:6px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal.um p#primeiro{
+        margin-left:-20px;
+        padding-right:50px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal.um  img#homem-indicando{
+        padding-right:50px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal div.orcamento-conteudo{
+        margin-left: -20px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal2 h2{
+        margin-top:-20px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal2 div.atendimento-conteudo{
+        width:130px; /*espaço em branco*/
+        height:1px;
+        margin: 0 -40px 0 0  ;
+        padding-left:20px;
+        padding-right:20px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img{
+        height: 100px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img#homem-tablet{
+        display:none;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img#homem-serralheiro{
+        position:relative;
+        top:-30px;
+        height: 60px;
+    }
+    /*--- APRESENTAÇÃO */
+
+    /*--- SERVIÇOS */
+
+    main article div.apresentacao div.servicos-container h2.servicos{
+        margin-top:-30px;
+        font-size:13px;
+    }
+    main article div.apresentacao ul li {
+        font-size:9px;
+        right:0;
+    }
+
+    main article div.apresentacao ul li span {
+        font-size:12px;
+    }
+
+    main article div.apresentacao div.servicos ul.lista-image li img{
+        height:100px;
+    }
+    /*--- SERVIÇOS */
+
+    /*--- MARCAS */
+
+    main article div.apresentacao div.container-marcas{
+        margin-right:60px;
+    }
+    main article div.apresentacao div.container-marcas h2.marcas{
+        font-size:20px;
+    }
+
+    main article div.apresentacao div.container-marcas figure{
+        height: 60px;
+    }
+    main article div.apresentacao div.container-marcas img{
+        height:  60px;
+    }
+    /* --- MARCAS */
+
+    /*--- RESUMO */
+
+    main article div.apresentacao{
+        width:100%;
+    }
+
+    main article div.apresentacao div.resumo div.container-horizontal div#bloco-manutencao{
+        width:40%;
+        margin-left:-30px;
+    }
+
+    main article div.apresentacao div.resumo div.container-vertical.branco {
+        width:95px;
+    }
+
+    main article div.apresentacao div.resumo div.container-vertical div#bloco-portao,    main article div.apresentacao div.resumo div.container-vertical div#bloco-controle {
+        min-width:90px;
+        margin-left:-1px;
+    }
+
+    main article div.apresentacao div.resumo div.container-vertical div#bloco-portao img,    main article div.apresentacao div.resumo div.container-vertical div#bloco-controle img {
+        height:55px;
+    }
+
+    main article div.apresentacao div.resumo h3{
+        font-size:10px;
+    }
+
+    main article div.apresentacao div.resumo p {
+        font-size:8px;
+    }
+
+    main article div.apresentacao div.resumo img#manutencao{
+        height:120px;
+    }
+    main article div.apresentacao div.resumo img#cabo-aco{
+        margin:1px auto;
+        width:200px;
+    }
+
+    main article div.apresentacao div.resumo div.container-horizontal div#bloco-engrenagem{
+        width:120px;
+        margin-right:-5px;
+    }
+    main article div.apresentacao div.resumo img#engrenagem{
+        margin:1px auto;
+        width:100px;
+    }
+    main article div.apresentacao div.resumo div.container-horizontal div#bloco-central{
+        width:120px;
+        margin-right:40px;
+    }
+
+    main article div.apresentacao div.resumo img#central-eletronica{
+        margin: 1px auto;
+        width: 100px;
+    }
+
+    main article div.apresentacao div.resumo div.container-horizontal div#bloco-aco {
+        margin-right:40px;
+        width:260px;
+    }
+
+    /*--- RESUMO */
+
+    /*--- GOSTOU */
+
+    main article div.apresentacao div.gostou h4{
+        font-size:10px;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal p{
+        font-size:10px;
+        padding-top:35px;
+        padding-left:25px;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal table tr td.imagem-gostou img {
+        height:15px;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal table tr td{
+        font-size: 8px;
+        line-height: 0.01;
+    }
+
+    main article div.apresentacao div.gostou div.gostou-horizontal table{
+        margin-top:40px;
+        margin-right:40px;
+    }
+
+    main article div.apresentacao div.gostou div.gostou-horizontal table tr{
+        margin:0;
+        padding:0;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal img#joinha {
+        padding-left:60px;
+        width:125px;
+        height:70px;
+        padding-top:40px;
+    }
+
+    /*--- GOSTOU */
+
+    /*--- FOOTER */
+    footer div {
+        margin-top:20px;
+        font-size:5px;
+    }
+    div#esquerda{
+        width:23%;
+    }
+    div#centro{
+        width: 49%;
+    }
+    div#direita{
+        width:23%;
+    }
+    /*--- FOOTER */
+
+    /* --- DESENVOLVEDOR */
+    #desenvolvedor {
+        min-width: 200px;
+        font-size: 10px;
+    }
+    /* --- DESENVOLVEDOR */
+
+
+    /* --- NÃO ATENDO EM CONDOMINIOS */
+    .janela-conteudo h5 {
+        font-size:20px;
+        padding-bottom:20px;
+    }
+    .janela-conteudo p {
+        font-size:10px;
+    }
+    /* --- NÃO ATENDO EM CONDOMINIOS */
+
+    section div.slider div.slider-wrapper{
+        height:120px;
+    }
+
+}
+
+@media all and (max-width: 400px) and (min-width: 330px) {
+    /* --- HEADER */
+    header div.titulo h1{
+        font-size:15px;
+    }
+
+    header div.paragrafo p {
+        font-size:15px;
+    }
+    /*--- HEADER */
+
+    /*--- CONTATOS */
+
+    section address table tr td.texto{
+        font-size:11px;
+        padding:0 30px 0 10px ;
+        left:35px;
+    }
+
+    section address table tr td.imagem{
+        width:25px;
+        height:25px;
+    }
+
+    section address table tr td.imagem img {
+        width:10px;
+        height:10px;
+    }
+    /*--- CONTATOS */
+
+    /*APRESENTAÇÃO*/
+
+    main article div.apresentacao div.apresentacao-horizontal.um h2, main article div.apresentacao div.apresentacao-horizontal2 h2{
+        font-size:8px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal.um h2#titulo-primeiro{
+        padding-right:50px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal.um p, main article div.apresentacao div.apresentacao-horizontal2 p{
+        font-size:6px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal.um p#primeiro{
+        margin-left:-20px;
+        padding-right:50px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal.um  img#homem-indicando{
+        padding-right:50px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal div.orcamento-conteudo{
+        margin-left: -20px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal2 h2{
+        margin-top:-40px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal2 div.atendimento-conteudo{
+        width:130px; /*espaço em branco*/
+        height:1px;
+        margin: 0 -40px 0 0  ;
+        padding-left:20px;
+        padding-right:20px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img{
+        height: 100px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img#homem-tablet{
+        display:none;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img#homem-serralheiro{
+        position:relative;
+        top:-40px;
+        height: 80px;
+    }
+    /*--- APRESENTAÇÃO */
+
+    /*--- SERVIÇOS */
+
+    main article div.apresentacao div.servicos-container h2.servicos{
+        margin-top:-30px;
+        font-size:13px;
+    }
+    main article div.apresentacao ul li {
+        font-size:9px;
+        right:0;
+    }
+
+    main article div.apresentacao ul li span {
+        font-size:12px;
+    }
+
+    main article div.apresentacao div.servicos ul.lista-image li img{
+        height:100px;
+    }
+    /*--- SERVIÇOS */
+
+    /*--- MARCAS */
+
+    main article div.apresentacao div.container-marcas{
+        margin-right:60px;
+    }
+    main article div.apresentacao div.container-marcas h2.marcas{
+        font-size:20px;
+    }
+
+    main article div.apresentacao div.container-marcas figure{
+        height: 60px;
+    }
+    main article div.apresentacao div.container-marcas img{
+        height:  60px;
+    }
+    /* --- MARCAS */
+
+    /*--- RESUMO */
+
+    main article div.apresentacao{
+        width:100%;
+    }
+
+    main article div.apresentacao div.resumo div.container-horizontal div#bloco-manutencao{
+        width:40%;
+        margin-left:-30px;
+    }
+
+    main article div.apresentacao div.resumo div.container-vertical.branco {
+        width:95px;
+    }
+
+    main article div.apresentacao div.resumo div.container-vertical div#bloco-portao,    main article div.apresentacao div.resumo div.container-vertical div#bloco-controle {
+        min-width:90px;
+        margin-left:-1px;
+    }
+
+    main article div.apresentacao div.resumo div.container-vertical div#bloco-portao img,    main article div.apresentacao div.resumo div.container-vertical div#bloco-controle img {
+        height:55px;
+    }
+
+    main article div.apresentacao div.resumo h3{
+        font-size:10px;
+    }
+
+    main article div.apresentacao div.resumo p {
+        font-size:8px;
+    }
+
+    main article div.apresentacao div.resumo img#manutencao{
+        height:120px;
+    }
+    main article div.apresentacao div.resumo img#cabo-aco{
+        margin:1px auto;
+        width:200px;
+    }
+
+    main article div.apresentacao div.resumo div.container-horizontal div#bloco-engrenagem{
+        width:120px;
+        margin-right:-5px;
+    }
+    main article div.apresentacao div.resumo img#engrenagem{
+        margin:1px auto;
+        width:100px;
+    }
+    main article div.apresentacao div.resumo div.container-horizontal div#bloco-central{
+        width:120px;
+        margin-right:40px;
+    }
+
+    main article div.apresentacao div.resumo img#central-eletronica{
+        margin: 1px auto;
+        width: 100px;
+    }
+
+    main article div.apresentacao div.resumo div.container-horizontal div#bloco-aco {
+        margin-right:40px;
+        width:260px;
+    }
+
+    /*--- RESUMO */
+
+    /*--- GOSTOU */
+
+    main article div.apresentacao div.gostou h4{
+        font-size:10px;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal p{
+        font-size:10px;
+        padding-top:35px;
+        padding-left:25px;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal table tr td.imagem-gostou img {
+        height:15px;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal table tr td{
+        font-size: 8px;
+        line-height: 0.01;
+    }
+
+    main article div.apresentacao div.gostou div.gostou-horizontal table{
+        margin-top:40px;
+        margin-right:40px;
+    }
+
+    main article div.apresentacao div.gostou div.gostou-horizontal table tr{
+        margin:0;
+        padding:0;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal img#joinha {
+        padding-left:60px;
+        width:125px;
+        height:70px;
+        padding-top:40px;
+    }
+
+    /*--- GOSTOU */
+
+    /*--- FOOTER */
+    footer div {
+        margin-top:20px;
+        font-size:5px;
+    }
+    div#esquerda{
+        width:23%;
+    }
+    div#centro{
+        width: 49%;
+    }
+    div#direita{
+        width:23%;
+    }
+    /*--- FOOTER */
+
+    /* --- DESENVOLVEDOR */
+    #desenvolvedor {
+        min-width: 200px;
+        font-size: 10px;
+    }
+    /* --- DESENVOLVEDOR */
+
+
+    /* --- NÃO ATENDO EM CONDOMINIOS */
+    .janela-conteudo h5 {
+        font-size:20px;
+        padding-bottom:20px;
+    }
+    .janela-conteudo p {
+        font-size:10px;
+    }
+    /* --- NÃO ATENDO EM CONDOMINIOS */
+
+    section div.slider div.slider-wrapper{
+        height:120px;
+    }
+}
+@media all and (max-width: 500px) and (min-width: 400px) {
+    /* --- HEADER */
+    header div.titulo h1{
+        font-size:20px;
+    }
+
+    header div.paragrafo p {
+        font-size:20px;
+    }
+    /*--- HEADER */
+
+    /*--- CONTATOS */
+
+    section address table tr td.texto{
+        font-size:13px;
+        padding:0 40px 0 10px ;
+        left:45px;
+    }
+
+    section address table tr td.imagem{
+        width:35px;
+        height:35px;
+    }
+
+    section address table tr td.imagem img {
+        width:20px;
+        height:20px;
+    }
+    /*--- CONTATOS */
+
+    /*APRESENTAÇÃO*/
+
+    main article div.apresentacao div.apresentacao-horizontal.um h2, main article div.apresentacao div.apresentacao-horizontal2 h2{
+        font-size:12px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal.um h2#titulo-primeiro{
+          padding-right:50px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal.um p, main article div.apresentacao div.apresentacao-horizontal2 p{
+        font-size:10px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal.um p#primeiro{
+        margin-left:-30px;
+        padding-right:50px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal.um  img#homem-indicando{
+        padding-right:50px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal div.orcamento-conteudo{
+        margin-left: -90px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal2 h2{
+        margin-top:-40px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal2 div.atendimento-conteudo{
+        width:220px; /*espaço em branco*/
+        height:1px;
+        margin: 0 -40px 0 0  ;
+        padding-left:20px;
+        padding-right:20px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img{
+        height: 140px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img#homem-tablet{
+        display:none;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img#homem-serralheiro{
+        position:relative;
+        top:-30px;
+        left:-30px;
+        height: 120px;
+    }
+    /*--- APRESENTAÇÃO */
+
+    /*--- SERVIÇOS */
+
+    main article div.apresentacao div.servicos-container h2.servicos{
+        margin-top:-30px;
+        font-size:15px;
+    }
+    main article div.apresentacao ul li {
+        font-size:10px;
+        right:0;
+    }
+
+
+    main article div.apresentacao ul li span {
+        font-size:15px;
+    }
+
+    main article div.apresentacao div.servicos ul.lista-image li img{
+        height:120px;
+    }
+    /*--- SERVIÇOS */
+
+    /*--- MARCAS */
+
+    main article div.apresentacao div.container-marcas{
+        margin-right:60px;
+    }
+    main article div.apresentacao div.container-marcas h2.marcas{
+        font-size:20px;
+    }
+
+    main article div.apresentacao div.container-marcas figure{
+        height: 80px;
+    }
+    main article div.apresentacao div.container-marcas img{
+        height:  80px;
+    }
+    /* --- MARCAS */
+
+    /*--- RESUMO */
+
+    main article div.apresentacao{
+        width:100%;
+    }
+
+    main article div.apresentacao div.resumo div.container-horizontal div#bloco-manutencao{
+        min-width:120px;
+    }
+
+    main article div.apresentacao div.resumo div.container-vertical div#bloco-portao,    main article div.apresentacao div.resumo div.container-vertical div#bloco-controle {
+        min-width:120px;
+        margin-right:60px;
+    }
+
+    main article div.apresentacao div.resumo div.container-vertical div#bloco-portao img,    main article div.apresentacao div.resumo div.container-vertical div#bloco-controle img {
+         height:75px;
+    }
+
+    main article div.apresentacao div.resumo h3{
+        font-size:10px;
+    }
+
+    main article div.apresentacao div.resumo p {
+        font-size:8px;
+    }
+
+    main article div.apresentacao div.resumo img#manutencao{
+        height:150px;
+    }
+    main article div.apresentacao div.resumo img#cabo-aco{
+        margin:1px auto;
+        width:200px;
+    }
+
+    main article div.apresentacao div.resumo div.container-horizontal div#bloco-engrenagem{
+      min-width:120px;
+    }
+    main article div.apresentacao div.resumo img#engrenagem{
+        margin:1px auto;
+        width:120px;
+    }
+    main article div.apresentacao div.resumo div.container-horizontal div#bloco-central{
+        min-width:120px;
+        margin-right:60px;
+    }
+
+    main article div.apresentacao div.resumo img#central-eletronica{
+        margin: 1px auto;
+        width: 120px;
+    }
+
+    main article div.apresentacao div.resumo div.container-horizontal div#bloco-aco {
+        margin-right:60px;
+       min-width:240px;
+    }
+
+    /*--- RESUMO */
+
+    /*--- GOSTOU */
+
+    main article div.apresentacao div.gostou h4{
+        font-size:17px;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal p{
+        font-size:13px;
+        padding-top:20px;
+        padding-left:25px;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal table tr td.imagem-gostou img {
+        height:20px;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal table tr td{
+        font-size: 10px;
+        line-height: 0.01;
+    }
+
+    main article div.apresentacao div.gostou div.gostou-horizontal table{
+        margin-top:30px;
+        margin-right:40px;
+    }
+
+    main article div.apresentacao div.gostou div.gostou-horizontal table tr{
+        margin:0;
+        padding:0;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal img#joinha {
+        padding-left:50px;
+        width:145px;
+        height:100px;
+        padding-top:20px;
+    }
+
+    /*--- GOSTOU */
+
+    /*--- FOOTER */
+    footer div {
+        margin-top:20px;
+        font-size:7px;
+    }
+    div#esquerda{
+        width:23%;
+    }
+    div#centro{
+        width: 49%;
+    }
+    div#direita{
+        width:23%;
+    }
+    /*--- FOOTER */
+
+    /* --- DESENVOLVEDOR */
+    #desenvolvedor {
+        font-size: 11px;
+    }
+    /* --- DESENVOLVEDOR */
+
+
+    /* --- NÃO ATENDO EM CONDOMINIOS */
+    .janela-conteudo h5 {
+        font-size:20px;
+        padding-bottom:20px;
+    }
+    .janela-conteudo p {
+        font-size:10px;
+    }
+    /* --- NÃO ATENDO EM CONDOMINIOS */
+
+    section div.slider div.slider-wrapper{
+        height:155px;
+    }
+}
+@media all and (max-width: 600px) and (min-width: 500px) {
+    /* --- HEADER */
+    header div.titulo h1{
+        font-size:30px;
+    }
+
+    header div.paragrafo p {
+        font-size:30px;
+    }
+    /*--- HEADER */
+
+    /*--- CONTATOS */
+    section address table tr td.texto{
+        font-size:16px;
+        padding:0 40px 0 10px ;
+        left:50px;
+    }
+
+    section address table tr td.imagem{
+        width:40px;
+        height:40px;
+    }
+
+    section address table tr td.imagem img {
+        width:25px;
+        height:25px;
+    }
+    /*--- CONTATOS */
+
+    /*APRESENTAÇÃO*/
+
+    main article div.apresentacao div.apresentacao-horizontal.um h2, main article div.apresentacao div.apresentacao-horizontal2 h2{
+        font-size:15px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal.um p, main article div.apresentacao div.apresentacao-horizontal2 p{
+        font-size:14px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal.um p#primeiro{
+        margin-left:-40px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal.um img#homem-aconselhando{
+        margin-left: -60px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal div.orcamento-conteudo{
+        margin-left: -130px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal2 h2{
+        margin-top:10px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal2 div.atendimento-conteudo{
+        margin-left:-20px;
+        padding-right:150px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img{
+        height: 200px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img#homem-tablet{
+        display:none;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img#homem-serralheiro{
+        margin-right:-40px;
+        height: 160px;
+    }
+    /*--- APRESENTAÇÃO */
+
+    /*--- SERVIÇOS */
+
+    main article div.apresentacao div.servicos-container h2.servicos{
+        font-size:20px;
+    }
+    main article div.apresentacao ul li {
+        font-size:13px;
+    }
+
+    main article div.apresentacao ul li span {
+        font-size:20px;
+    }
+
+    main article div.apresentacao div.servicos ul.lista-image li img{
+        height:150px;
+    }
+    /*--- SERVIÇOS */
+
+    /*--- MARCAS */
+    main article div.apresentacao div.container-marcas h2.marcas{
+        font-size:20px;
+    }
+
+    main article div.apresentacao div.container-marcas figure{
+        height: 80px;
+    }
+    main article div.apresentacao div.container-marcas img{
+        height:  80px;
+    }
+    /* --- MARCAS */
+
+    /*--- RESUMO */
+    main article div.apresentacao div.resumo div#bloco-manutencao{
+        width:200%;
+    }
+    main article div.apresentacao div.resumo h3{
+        font-size:14px;
+    }
+
+    main article div.apresentacao div.resumo p {
+        font-size:12px;
+    }
+
+    main article div.apresentacao div.resumo img#manutencao{
+        height:150px;
+    }
+    main article div.apresentacao div.resumo img#cabo-aco{
+        margin:1px auto;
+        width:200px;
+    }
+    main article div.apresentacao div.resumo img#engrenagem{
+        margin:1px auto;
+        width:140px;
+    }
+    main article div.apresentacao div.resumo img#central-eletronica{
+        margin: 1px auto;
+        width: 150px;
+    }
+    /*--- RESUMO */
+
+    /*--- GOSTOU */
+
+    main article div.apresentacao div.gostou h4{
+        font-size:17px;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal p{
+        font-size:15px;
+        padding-top:20px;
+        padding-left:15px;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal table{
+        margin-top:30px;
+    }
+
+    main article div.apresentacao div.gostou div.gostou-horizontal table tr td.imagem-gostou img {
+        height:23px;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal table tr td{
+        font-size: 13px;
+        line-height: 0.1;
+    }
+
+    main article div.apresentacao div.gostou div.gostou-horizontal table tr{
+        margin:0;
+        padding:0;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal img#joinha {
+        width:170px;
+        height:125px;
+        padding-top:20px;
+        margin-left:-100px;
+    }
+
+    /*--- GOSTOU */
+
+    /*--- FOOTER */
+    footer div {
+        margin-top:20px;
+        font-size:10px;
+    }
+    /*--- FOOTER */
+
+    /* --- DESENVOLVEDOR */
+    #desenvolvedor {
+        font-size: 12px;
+    }
+    /* --- DESENVOLVEDOR */
+
+    section div.slider div.slider-wrapper{
+        height:190px;
+    }
+}
+@media all and (max-width: 700px) and (min-width: 600px) {
+    /* --- HEADER */
+    header div.titulo h1{
+        font-size:35px;
+    }
+
+    header div.paragrafo p {
+        font-size:35px;
+    }
+    /*--- HEADER */
+
+    /*--- CONTATOS */
+    section address table tr td.texto{
+        font-size:18px;
+        padding:0 40px 0 10px ;
+        left:50px;
+    }
+
+    section address table tr td.imagem{
+        width:50px;
+        height:50px;
+    }
+
+    section address table tr td.imagem img {
+        width:35px;
+        height:35px;
+    }
+    /*--- CONTATOS */
+
+    /*APRESENTAÇÃO*/
+
+    main article div.apresentacao div.apresentacao-horizontal.um h2, main article div.apresentacao div.apresentacao-horizontal2 h2{
+        font-size:15px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal.um p, main article div.apresentacao div.apresentacao-horizontal2 p{
+        font-size:14px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal.um img#homem-aconselhando{
+        margin-left: -60px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal div.orcamento-conteudo{
+        margin-left: -60px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal2 h2{
+        margin-top:0;
+    }
+    main article div.apresentacao div.apresentacao-horizontal2 div.atendimento-conteudo{
+        margin-left:-50px;
+        padding-right:150px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img{
+        height: 210px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img#homem-tablet{
+        display:none;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img#homem-serralheiro{
+        margin-right:-20px;
+        height: 190px;
+    }
+    /*--- APRESENTAÇÃO */
+
+    /*--- SERVIÇOS */
+
+    main article div.apresentacao div.servicos-container h2.servicos{
+        font-size:25px;
+    }
+    main article div.apresentacao ul li {
+        font-size:15px;
+    }
+
+    main article div.apresentacao ul li span {
+        font-size:20px;
+    }
+
+    main article div.apresentacao div.servicos ul.lista-image li img{
+        height:165px;
+    }
+    /*--- SERVIÇOS */
+
+    /*--- MARCAS */
+    main article div.apresentacao div.container-marcas h2.marcas{
+        font-size:25px;
+    }
+
+    main article div.apresentacao div.container-marcas figure{
+        height: 80px;
+    }
+    main article div.apresentacao div.container-marcas img{
+        height:  80px;
+    }
+    /* --- MARCAS */
+
+    /*--- RESUMO */
+    main article div.apresentacao div.resumo div#bloco-manutencao{
+        width:140%;
+    }
+
+    main article div.apresentacao div.resumo h3{
+        font-size:17px;
+    }
+
+    main article div.apresentacao div.resumo p {
+        font-size:12px;
+    }
+
+    main article div.apresentacao div.resumo img#manutencao{
+        height:150px;
+    }
+    main article div.apresentacao div.resumo img#cabo-aco{
+        margin:1px auto;
+        width:200px;
+    }
+    main article div.apresentacao div.resumo img#engrenagem{
+        margin:1px auto;
+        width:160px;
+    }
+    main article div.apresentacao div.resumo img#central-eletronica{
+        margin: 1px auto;
+        width: 150px;
+    }
+    /*--- RESUMO */
+
+    /*--- GOSTOU */
+
+    main article div.apresentacao div.gostou h4{
+        font-size:20px;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal p{
+        font-size:18px;
+        padding-left:15px;
+        padding-top:10px;
+    }
+
+    main article div.apresentacao div.gostou div.gostou-horizontal table{
+        margin-top:30px;
+    }
+
+    main article div.apresentacao div.gostou div.gostou-horizontal table tr td.imagem-gostou img {
+        height:23px;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal table tr td{
+        font-size: 13px;
+        line-height: 0.1;
+    }
+
+    main article div.apresentacao div.gostou div.gostou-horizontal table tr{
+        margin:0;
+        padding:0;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal img#joinha {
+        width:190px;
+        height:145px;
+        margin-left:-120px;
+    }
+
+    /*--- GOSTOU */
+
+    /*--- FOOTER */
+    footer div {
+        margin-top:20px;
+        font-size:11px;
+    }
+    /*--- FOOTER */
+
+    /* --- DESENVOLVEDOR */
+    #desenvolvedor {
+        font-size: 13px;
+    }
+    /* --- DESENVOLVEDOR */
+
+    section div.slider div.slider-wrapper{
+       height:225px;
+    }
+}
+
+@media all and (max-width: 800px) and (min-width: 700px) {
+    /* --- HEADER */
+    header div.titulo h1{
+        font-size:40px;
+    }
+
+    header div.paragrafo p {
+        font-size:40px;
+    }
+    /*--- HEADER */
+
+    /*--- CONTATOS */
+    section address table tr td.texto{
+        font-size:18px;
+        padding:0 40px 0 10px ;
+        left:50px;
+    }
+
+    section address table tr td.imagem{
+        width:50px;
+        height:50px;
+    }
+
+    section address table tr td.imagem img {
+        width:35px;
+        height:35px;
+    }
+    /*--- CONTATOS */
+
+    /*APRESENTAÇÃO*/
+
+    main article div.apresentacao div.apresentacao-horizontal.um h2, main article div.apresentacao div.apresentacao-horizontal2 h2{
+        font-size:19px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal.um img#homem-aconselhando{
+        margin-left: -60px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal div.orcamento-conteudo{
+        margin-left: -60px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal2 h2{
+        margin-top:60px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal2 div.atendimento-conteudo{
+        margin-left:-50px;
+        padding-right:150px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img{
+        height: 230px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img#homem-tablet{
+        display:none;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img#homem-serralheiro{
+        margin-right:-50px;
+        height: 210px;
+    }
+    /*--- APRESENTAÇÃO */
+
+    /*--- SERVIÇOS */
+
+    main article div.apresentacao div.servicos-container h2.servicos{
+        font-size:30px;
+    }
+
+    main article div.apresentacao ul li {
+        font-size:20px;
+    }
+
+    main article div.apresentacao ul li span {
+        font-size:25px;
+    }
+
+    main article div.apresentacao div.servicos ul.lista-image li img{
+        height:200px;
+    }
+    /*--- SERVIÇOS */
+
+    /*--- MARCAS */
+    main article div.apresentacao div.container-marcas h2.marcas{
+        font-size:25px;
+    }
+
+    main article div.apresentacao div.container-marcas figure{
+        height: 80px;
+    }
+    main article div.apresentacao div.container-marcas img{
+        height:  80px;
+    }
+    /* --- MARCAS */
+
+    /*--- RESUMO */
+    main article div.apresentacao div.resumo div#bloco-manutencao{
+        width:180%;
+    }
+
+    main article div.apresentacao div.resumo h3{
+        font-size:17px;
+    }
+
+    main article div.apresentacao div.resumo p {
+        font-size:12px;
+    }
+
+    main article div.apresentacao div.resumo img#cabo-aco{
+        margin:1px auto;
+        width:200px;
+    }
+    main article div.apresentacao div.resumo img#engrenagem{
+        margin:1px auto;
+        width:160px;
+    }
+    main article div.apresentacao div.resumo img#central-eletronica{
+        margin: 1px auto;
+        width: 150px;
+    }
+    /*--- RESUMO */
+
+    /*--- GOSTOU */
+
+    main article div.apresentacao div.gostou h4{
+        font-size:20px;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal p{
+        font-size:21px;
+        padding-left:15px;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal table tr td.imagem-gostou img {
+        height:25px;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal table tr td{
+        font-size: 15px;
+        line-height: 0.1;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal table{
+        margin-top:30px;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal table tr{
+        margin:0;
+        padding:0;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal img#joinha {
+        width:200px;
+        height:155px;
+        margin-left:-120px;
+    }
+
+    /*--- GOSTOU */
+
+    /*--- FOOTER */
+    footer div {
+        margin-top:20px;
+        font-size:12px;
+    }
+    /*--- FOOTER */
+
+    /* --- DESENVOLVEDOR */
+    #desenvolvedor {
+        font-size: 14px;
+    }
+    /* --- DESENVOLVEDOR */
+
+    section div.slider div.slider-wrapper{
+        height:260px;
+    }
+}
+
+@media all and (max-width: 900px) and (min-width: 800px) {
+
+    /* --- HEADER */
+    header div.titulo h1{
+        font-size:40px;
+    }
+
+    header div.paragrafo p {
+        font-size:40px;
+    }
+    /*--- HEADER */
+
+    /*APRESENTAÇÃO*/
+
+    main article div.apresentacao div.apresentacao-horizontal.um h2, main article div.apresentacao div.apresentacao-horizontal2 h2{
+        font-size:19px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal.um img#homem-aconselhando{
+        margin-left: -60px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal div.orcamento-conteudo{
+        margin-left: -60px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal2 h2{
+        margin-top:60px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal2 div.atendimento-conteudo{
+        margin-left:-50px;
+        padding-right:150px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img{
+        height: 230px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img#homem-tablet{
+        display:none;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img#homem-serralheiro{
+        margin-right:-50px;
+        height: 210px;
+    }
+    /*--- APRESENTAÇÃO */
+
+    /*--- SERVIÇOS */
+
+    main article div.apresentacao div.servicos-container h2.servicos{
+        font-size:30px;
+    }
+
+    main article div.apresentacao ul li {
+        font-size:20px;
+    }
+
+    main article div.apresentacao ul li span {
+        font-size:25px;
+    }
+
+    main article div.apresentacao div.servicos ul.lista-image li img{
+        height:200px;
+    }
+    /*--- SERVIÇOS */
+
+    /*--- MARCAS */
+    main article div.apresentacao div.container-marcas h2.marcas{
+        font-size:30px;
+    }
+
+    main article div.apresentacao div.container-marcas figure{
+        height: 85px;
+    }
+    main article div.apresentacao div.container-marcas img{
+        height:  85px;
+    }
+    /* --- MARCAS */
+
+    /*--- RESUMO */
+    main article div.apresentacao div.resumo div#bloco-manutencao{
+        width:130%;
+    }
+
+    main article div.apresentacao div.resumo h3{
+        font-size:18px;
+    }
+
+    main article div.apresentacao div.resumo p {
+        font-size:12px;
+    }
+
+    main article div.apresentacao div.resumo img#cabo-aco{
+        margin:1px auto;
+        width:200px;
+    }
+    main article div.apresentacao div.resumo img#engrenagem{
+        width:200px;
+    }
+    /*--- RESUMO */
+
+    /*--- GOSTOU */
+
+    main article div.apresentacao div.gostou h4{
+        font-size:25px;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal p{
+        font-size:23px;
+        padding-left:15px;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal table tr td{
+        font-size: 15px;
+        line-height: 0.1;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal table tr td.imagem-gostou img {
+        height:25px;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal table{
+        margin-top:30px;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal img#joinha {
+        width:200px;
+        height:155px;
+        margin-left:-120px;
+    }
+
+    /*--- GOSTOU */
+
+    /*--- FOOTER */
+    footer div {
+        margin-top:20px;
+        font-size:15px;
+    }
+    /*--- FOOTER */
+
+    section div.slider div.slider-wrapper{
+        height:295px;
+    }
+}
+
+@media all and (max-width: 1000px) and (min-width: 900px) {
+    /*APRESENTAÇÃO*/
+    main article div.apresentacao div.apresentacao-horizontal.um h2, main article div.apresentacao div.apresentacao-horizontal2 h2{
+        font-size:20px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal.um img#homem-aconselhando{
+        margin-left: -60px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal div.orcamento-conteudo{
+        margin-left: -60px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal2 h2{
+        margin-top:60px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal2 div.atendimento-conteudo{
+        margin-left:-50px;
+        padding-right:150px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img{
+        height: 230px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img#homem-tablet{
+        display:none;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img#homem-serralheiro{
+        margin-right:-50px;
+        height: 210px;
+    }
+    /*--- APRESENTAÇÃO */
+
+    /*--- SERVIÇOS */
+
+    main article div.apresentacao div.servicos-container h2.servicos{
+        font-size:35px;
+    }
+    main article div.apresentacao ul li {
+        font-size:25px;
+    }
+
+    main article div.apresentacao ul li span {
+        font-size:30px;
+    }
+
+    main article div.apresentacao div.servicos ul.lista-image li img{
+        height:250px;
+    }
+    /*--- SERVIÇOS */
+
+    /*--- MARCAS */
+    main article div.apresentacao div.container-marcas h2.marcas{
+        font-size:35px;
+    }
+    main article div.apresentacao div.container-marcas figure{
+        height:90px;
+    }
+    main article div.apresentacao div.container-marcas img{
+        height:90px;
+    }
+    /* --- MARCAS */
+
+    /*--- RESUMO */
+    main article div.apresentacao div.resumo div#bloco-manutencao{
+        width:200%;
+    }
+    /*--- RESUMO */
+
+    /*--- GOSTOU */
+    main article div.apresentacao div.gostou div.gostou-horizontal p{
+        font-size:24px;
+        padding-left:15px;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal table tr td{
+        font-size: 15px;
+        line-height: 0.1;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal table tr td.imagem-gostou img {
+        height:25px;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal img#joinha {
+        width:200px;
+        height:155px;
+        margin-left:-120px;
+    }
+    main article div.apresentacao div.gostou div.gostou-horizontal table{
+        margin-top:30px;
+    }
+    /*--- GOSTOU */
+
+    /*--- FOOTER */
+    footer div {
+        margin-top:20px;
+    }
+    /*--- FOOTER */
+
+    section div.slider div.slider-wrapper{
+        height:330px;
+    }
+}
+
+@media all and (max-width: 1100px) and (min-width: 1000px) {
+
+    /*APRESENTAÇÃO*/
+
+    main article div.apresentacao div.apresentacao-horizontal.um h2, main article div.apresentacao div.apresentacao-horizontal2 h2{
+        font-size:20px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal div.orcamento-conteudo{
+        margin-left: 50px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal2 h2{
+        margin-top:60px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img{
+        height: 230px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img#homem-tablet{
+        margin-right:-50px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img#homem-serralheiro{
+        margin-right:-100px;
+    }
+    /*--- APRESENTAÇÃO */
+
+    /*--- SERVIÇOS */
+
+    main article div.apresentacao ul li {
+        font-size:28px;
+    }
+    main article div.apresentacao ul li span {
+        font-size:33px;
+    }
+    main article div.apresentacao h2.servicos{
+         font-size:38px;
+    }
+    /*--- SERVIÇOS */
+
+    /*--- MARCAS */
+    main article div.apresentacao div.container-marcas h2.marcas{
+        font-size:35px;
+    }
+    main article div.apresentacao div.container-marcas figure{
+        height:95px;
+    }
+    main article div.apresentacao div.container-marcas img{
+        height:95px;
+    }
+    /* --- MARCAS */
+
+    /*--- RESUMO */
+    main article div.apresentacao div.resumo div#bloco-manutencao{
+        width:170%;
+    }
+    /*--- RESUMO */
+
+    /*--- GOSTOU */
+    main article div.apresentacao div.gostou div.gostou-horizontal p{
+        font-size:29px;
+    }
+    /*--- GOSTOU */
+
+    section div.slider div.slider-wrapper{
+        height:365px;
+    }
+}
+
+@media all and (max-width: 1200px) and (min-width: 1100px) {
+
+    /*APRESENTAÇÃO*/
+    main article div.apresentacao div.apresentacao-horizontal div.orcamento-conteudo{
+        margin-left: 50px;
+    }
+
+    main article div.apresentacao div.apresentacao-horizontal2 h2{
+        margin-top:60px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img{
+        height: 230px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img#homem-tablet{
+        margin-right:-50px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img#homem-serralheiro{
+        margin-right:-100px;
+    }
+    /*--- APRESENTAÇÃO */
+
+    /*--- RESUMO */
+    main article div.apresentacao div.resumo div#bloco-manutencao{
+        width:140%;
+    }
+    /*--- RESUMO */
+
+    section div.slider div.slider-wrapper{
+        height:400px;
+    }
+}
+
+@media all and (max-width: 1300px) and (min-width: 1200px) {
+
+    /*APRESENTAÇÃO*/
+    main article div.apresentacao div.apresentacao-horizontal div.orcamento-conteudo{
+        margin-left: 50px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img#homem-tablet{
+        margin-right:-50px;
+    }
+    main article div.apresentacao div.apresentacao-horizontal img#homem-serralheiro{
+        margin-right:-100px;
+    }
+    /*--- APRESENTAÇÃO */
+
+    section div.slider div.slider-wrapper{
+        height:435px;
+    }
+}
+@media all and (max-width: 1400px) and (min-width: 1300px) {
+    section div.slider div.slider-wrapper{
+        height:470px;
+    }
+}
+@media all and (max-width: 1500px) and (min-width: 1400px) {
+    section div.slider div.slider-wrapper{
+        height:505px;
+    }
+}
+@media all and (max-width: 1600px) and (min-width: 1500px) {
+    section div.slider div.slider-wrapper{
+        height:550px;
+    }
+}
+@media all and (max-width: 1700px) and (min-width: 1600px) {
+    section div.slider div.slider-wrapper{
+        height:585px;
+    }
+}
+@media all and (max-width: 1800px) and (min-width: 1700px) {
+    section div.slider div.slider-wrapper{
+        height:620px;
+    }
+}
+@media all and (max-width: 1900px) and (min-width: 1800px) {
+    section div.slider div.slider-wrapper{
+        height:655px;
+    }
+}
+@media all and (max-width: 2000px) and (min-width: 1900px) {
+    section div.slider div.slider-wrapper{
+        height:690px;
+    }
+}
+@media all and (max-width: 2100px) and (min-width: 2000px) {
+    section div.slider div.slider-wrapper{
+        height:725px;
+    }
+}
+@media all and (max-width: 2200px) and (min-width: 2100px) {
+    section div.slider div.slider-wrapper{
+        height:760px;
+    }
+}
+@media all and (max-width: 2300px) and (min-width: 2200px) {
+    section div.slider div.slider-wrapper{
+        height:795px;
+    }
+}
+@media all and (max-width: 2400px) and (min-width: 2300px) {
+    section div.slider div.slider-wrapper{
+        height:820px;
+    }
+}
+@media all and (max-width: 2500px) and (min-width: 2400px) {
+    section div.slider div.slider-wrapper{
+        height:855px;
+    }
+}
+@media all and (max-width: 2600px) and (min-width: 2500px) {
+    section div.slider div.slider-wrapper{
+        height:880px;
+    }
+}
+@media all and (max-width: 2700px) and (min-width: 2600px) {
+    section div.slider div.slider-wrapper{
+        height:915px;
+    }
+}
+@media all and (max-width: 2800px) and (min-width: 2700px) {
+    section div.slider div.slider-wrapper{
+        height:950px;
+    }
+}
+@media all and (max-width: 2900px) and (min-width: 2800px) {
+    section div.slider div.slider-wrapper{
+        height:985px;
+    }
+}
+@media all and (max-width: 3000px) and (min-width: 2900px) {
+    section div.slider div.slider-wrapper{
+        height:1020px;
+    }
+}
+
+
+

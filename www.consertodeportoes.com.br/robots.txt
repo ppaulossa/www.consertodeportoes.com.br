@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://www.consertodeportoes.com.br/sitemap.xml

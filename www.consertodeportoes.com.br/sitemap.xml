@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>http://www.consertodeportoes.com.br</loc>
+        <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="http://www.consertodeportoes.com.br"
+        />
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_icone/email.png</image:loc>
+            <image:title>E-mail</image:title>
+            <image:caption>Icone E-Mail</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_icone/facebook.png</image:loc>
+            <image:title>Facebook</image:title>
+            <image:caption>Icone Fecebook</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_icone/google_plus.png</image:loc>
+            <image:title>Google Plus</image:title>
+            <image:caption>Icone Google Plus</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_icone/oi.png</image:loc>
+            <image:title>Oi</image:title>
+            <image:caption>Icone Oi</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_icone/twitter.png</image:loc>
+            <image:title>Twitter</image:title>
+            <image:caption>Icone Twitter</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_icone/vivo.png</image:loc>
+            <image:title>Vivo</image:title>
+            <image:caption>Icone Vivo</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_icone/whatsapp.png</image:loc>
+            <image:title>Whatsapp</image:title>
+            <image:caption>Icone Whatsapp</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_marcas/garen.png</image:loc>
+            <image:title>Garen</image:title>
+            <image:caption>Logo Garen</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_marcas/ggport.jpg</image:loc>
+            <image:title>GGPort</image:title>
+            <image:caption>Logo GGport</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_marcas/hdl.png</image:loc>
+            <image:title>HDL</image:title>
+            <image:caption>Logo HDL</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_marcas/linear-hcs.jpg</image:loc>
+            <image:title>Linear HCS</image:title>
+            <image:caption>Logo Linear HCS</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_marcas/mkn.jpg</image:loc>
+            <image:title>MKN</image:title>
+            <image:caption>Logo MKN</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_marcas/peccinin.jpg</image:loc>
+            <image:title>Peccinin</image:title>
+            <image:caption>Logo Peccinin</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_marcas/ppa.jpg</image:loc>
+            <image:title>PPA</image:title>
+            <image:caption>Logo PPA</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_marcas/rcg.jpg</image:loc>
+            <image:title>RCG</image:title>
+            <image:caption>Logo RCG</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_marcas/rossi.jpg</image:loc>
+            <image:title>Rossi</image:title>
+            <image:caption>Logo Rossi</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_marcas/unisystem.png</image:loc>
+            <image:title>Unisystem</image:title>
+            <image:caption>Logo Unisystem</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_site/atencao.png</image:loc>
+            <image:title>Atenção</image:title>
+            <image:caption>Atenção</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_site/cabo-de-aco.png</image:loc>
+            <image:title>Cabo de Aço</image:title>
+            <image:caption>Cabo de Aço</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_site/central eletronica.png</image:loc>
+            <image:title>Central Eletronica</image:title>
+            <image:caption>Central Eletronica de Portão Altomático</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_site/controle.png</image:loc>
+            <image:title>Controle de Portão Altomático</image:title>
+            <image:caption>Controle de Portão Altomático</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_site/homem.png</image:loc>
+            <image:title>Homem</image:title>
+            <image:caption>Homem Aconselhando</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_site/homem2.png</image:loc>
+            <image:title>Homem</image:title>
+            <image:caption>Homem indicando com um computador</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_site/homem3.png</image:loc>
+            <image:title>Homem</image:title>
+            <image:caption>Homem com tablet</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_site/joinha.png</image:loc>
+            <image:title>Joinha</image:title>
+            <image:caption>Joinha</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_site/manutencao.png</image:loc>
+            <image:title>Caixa de Ferramentas</image:title>
+            <image:caption>Caixa de Ferramentas</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_site/motor-portao.png</image:loc>
+            <image:title>Motor de Portão</image:title>
+            <image:caption>Motor de portão altomático basculante</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_site/motor-portao2.png</image:loc>
+            <image:title>Motor de portões</image:title>
+            <image:caption>3 tipos de motores de portão altomático</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_site/motor-portao3.png</image:loc>
+            <image:title>Motor de portão</image:title>
+            <image:caption>Motor de portão altomático fora e dentro</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_site/motor-portao4.png</image:loc>
+            <image:title>Motor de portão</image:title>
+            <image:caption>Motor de portão altomático deslizante</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_site/motor-portao5.png</image:loc>
+            <image:title>Motor de portão</image:title>
+            <image:caption>Motor de portão altomático</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_site/portao.png</image:loc>
+            <image:title>Portão Basculante</image:title>
+            <image:caption>Portão Basculante</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_site/serralheiro.png</image:loc>
+            <image:title>Serralheiro</image:title>
+            <image:caption>Serralheiro Trabalhando</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_slider/controle-remoto-portao.jpg</image:loc>
+            <image:title>Controle de portão</image:title>
+            <image:caption>3 tipos de controle de portão altomático</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_slider/garen-peccinin-ppa.jpg</image:loc>
+            <image:title>Acessórios de portões</image:title>
+            <image:caption>Controles Motores Central Eletrônica de portões altomáticos</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_slider/peca-slider.jpg</image:loc>
+            <image:title>Acessórios de portões</image:title>
+            <image:caption>Controles Motores Central Eletrônica de portões altomáticos</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_slider/portao-automatico-grande.jpg</image:loc>
+            <image:title>Portão Altomatico</image:title>
+            <image:caption>Portão altomático grande deslizante</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_slider/portao-deslizante.jpg</image:loc>
+            <image:title>Acessórios de portões</image:title>
+            <image:caption>Portão e motores altomáticos</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_slider/serralheiro-portao.png</image:loc>
+            <image:title>Serralheiro</image:title>
+            <image:caption>Serralheiro trabalhando no portão altomático</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_slider/serralheiro-portao-2.jpg</image:loc>
+            <image:title>Serralheiro</image:title>
+            <image:caption>Serralheiro trabalhando no portão altomático</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/_img/_slider/todas-as-marcas.jpg</image:loc>
+            <image:title>Acessórios de portões</image:title>
+            <image:caption>Controles Motores Centrais Eletrôncias e Marcas de portões altomáticos</image:caption>
+        </image:image>
+          <image:image>
+            <image:loc>http://consertodeportoes.com.br/icone.png</image:loc>
+            <image:title>Logo</image:title>
+            <image:caption>Logo Casa</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://consertodeportoes.com.br/anuncio.jpg</image:loc>
+            <image:title>Anúncio</image:title>
+            <image:caption>Anúncio Mauricio</image:caption>
+        </image:image>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+        <lastmod>2017-05-01</lastmod>
+    </url>
+</urlset>

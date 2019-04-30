@@ -1,0 +1,539 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'tituloDaPagina';
+    src: url("../_font/greasegunchromeital.ttf");
+}
+@font-face{
+    font-family:'paragrafo';
+    src: url("../_font/quenda-medium.otf");
+}
+@font-face{
+    font-family: 'titulo';
+    src:url("../_font/masque.ttf");
+}
+
+@font-face{
+    font-family: 'lista-servico';
+    src: url('../_font/libertylegioncondital.ttf');
+}
+
+/* --- BACKGROUND*/
+
+body{
+    background: linear-gradient(#FFF,#F2F2F2);
+}
+
+/* --- BACKGROUND*/
+
+/*--- EFEITO IMAGENS */
+main img{
+    animation: pretoBranco 10s linear 35s infinite;
+}
+/*--- EFEITO IMAGENS */
+
+
+/* --- HEADER */
+
+header{
+    line-height: 0.8;
+    text-align:center;
+}
+
+header div.titulo{
+    position:relative;
+    right:0;
+    animation:transicao 2s,transparencia 10s;
+}
+
+header div.titulo h1{
+    font-family: 'tituloDaPagina',Verdana,sans-serif;
+    color:#666666;
+    font-size:40px;
+    opacity:1;
+}
+
+header div.paragrafo{
+    position: relative;
+    right:0;
+    animation:transicao 3s,transparencia 10s;
+}
+
+header div.paragrafo p{
+    font-family: 'titulo',Verdana,sans-serif;
+    color:#404040;
+    font-size: 45px;
+    transition:color 2s,text-shadow 2s;
+}
+
+header div.paragrafo p:hover{
+    color:white;
+    text-shadow: 1px 1px 4px black;
+}
+
+/* --- HEADER */
+
+/* --- SLIDER*/
+
+section h6{
+    display:none;
+}
+
+section div.slider div.slider-wrapper{
+    position:relative;
+    width:75%;
+    margin:1px auto;
+}
+
+section div.slider div.slider-wrapper figure{
+    margin:0;
+    padding:0;
+    border:none;
+}
+
+section div.slider div.slider-wrapper figure img.slide{
+    float: left;
+    position: absolute;
+    width: 100%;
+    height:auto;
+    opacity: 0;
+    transition: opacity 3s linear;
+    box-shadow: 2px 2px 10px black;
+}
+
+section div.slider div.slider-wrapper > section div.slider div.slider-wrapper img.slide:first-child{
+    opacity: 1;
+}
+
+/* --- SLIDER*/
+
+/* --- MANU CONTATOS */
+section address{
+    font-style:normal;
+}
+
+section address table{
+    position: fixed;
+    right:5px;
+    top:50%;
+    transform: translate(0, -50%);
+    border-spacing: 10px;
+}
+
+section address table caption{
+    display:none;
+}
+
+section address table {
+    z-index: 1;
+}
+
+section address table tr.um {animation: flipInX 6s; }
+section address table tr.dois {animation: flipInX 7s;}
+section address table tr.tres {animation: flipInX 8s;}
+section address table tr.quatro {animation: flipInX 9s;}
+section address table tr.cinco { animation: flipInX 10s;}
+section address table tr.seis {animation: flipInX 11s;}
+
+section address table tr td.texto{
+    visibility: hidden;
+    opacity:0;
+    text-align:center;
+    font-family: 'paragrafo',Verdana,sans-serif;
+    color:black;
+    font-size:25px;
+    border-radius:50px;
+    padding:0 80px 0 10px ;
+    background-color:#f0f0f0;
+    box-shadow: 0 3px 3px gray;
+    position: relative;
+    left:70px;
+}
+
+section address table tr td.imagem{
+    background-color: #f0f0f0;
+    box-shadow: -1px 1px 1px black;
+    border-radius: 50px;
+    text-align: center;
+    width:60px;
+    height:60px;
+    cursor:pointer;
+    position:relative;
+    animation: inverter 20s infinite;
+}
+
+/* --- MENU CONTATOS */
+
+/* --- CORPO DO DOCUMENTO*/
+main article div.apresentacao{
+    margin: 1px auto;
+    width:75%;
+}
+/* --- CORPO DO DOCUMENTO*/
+
+
+/* --- LETRAS DO DOUMENTO */
+
+main article div.apresentacao h2,main article div.apresentacao h3,main article div.apresentacao h4{
+    font-family: 'titulo',Verdana,sans-serif;
+    font-size:25px;
+    transition:color 1s,text-shadow 1s;
+}
+
+main article div.apresentacao h2:hover,main article div.apresentacao h3:hover,main article div.apresentacao h4:hover{
+    color:white;
+    text-shadow: 1px 1px 4px black;
+}
+main article div.apresentacao td ,main article div.apresentacao li,main article div.apresentacao p{
+    font-family:'paragrafo',Verdana,sans-serif;
+    font-style:italic;
+    font-size:20px;
+    transition:color 1s,text-shadow 1s;
+}
+
+main article div.apresentacao td:hover,main article div.apresentacao li:hover,main article div.apresentacao p:hover{
+    color:white;
+    text-shadow: 1px 1px 4px black;
+}
+/* --- LETRAS DO DOCUMENTO */
+
+/* --- APRESENTAÇÃO */
+
+main article div.apresentacao div.apresentacao-horizontal{
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+}
+main article div.apresentacao div.apresentacao-horizontal.um{
+    animation: transicao2 6s,transparencia 6s linear 4.8s;
+}
+
+main article div.apresentacao div.apresentacao-horizontal img#homem-aconselhando{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+main article div.apresentacao div.apresentacao-horizontal div.sobre-conteudo{
+    margin-top: 30px;
+}
+
+main article div.apresentacao div.apresentacao-horizontal div.orcamento-conteudo{
+    margin-left: 100px;
+}
+
+main article div.apresentacao div.apresentacao-horizontal2{
+    display: flex;
+    justify-content: flex-start;
+    opacity:0;
+}
+
+main article div.apresentacao div.apresentacao-horizontal2 div.atendimento-conteudo{
+    margin-top: -50px;
+    margin-right: -230px;
+}
+
+ /* --- APRESENTAÇÃO */
+
+/* --- LISTA DE SERVIÇOS */
+
+main article div.apresentacao div.servicos-container{
+    opacity:0;
+    position: relative;
+    left:0;
+}
+
+main article div.apresentacao h2.servicos{
+    text-align: center;
+    font-size:40px;
+}
+
+main article div.apresentacao div.servicos{
+    position: relative;
+}
+
+main article div.apresentacao div.servicos ul.lista-image{
+    position: absolute;
+    opacity: 0.25;
+    right:0;
+    bottom:0;
+}
+
+main article div.apresentacao ul {
+  padding:0;
+  margin:0;
+  list-style-type:none;
+}
+main article div.apresentacao ul li {
+    position:relative;
+    right:5%;
+    font-family: 'lista-servico',Verdana,sans-serif;
+    font-size:30px;
+    color:darkslategray;
+    line-height:1.9;
+}
+
+main article div.apresentacao ul li span {
+    font-size:35px;
+    font-style: normal;
+    color:green;
+}
+
+/* --- LISTA DE SERVIÇOS */
+
+/* --- MARCAS */
+main article div.apresentacao div.container-marcas{
+    opacity:0;
+}
+
+main article div.apresentacao div.container-marcas h2.marcas{
+    text-align: center;
+    font-size:40px;
+}
+
+main article div.apresentacao div.container-marcas figure{
+    box-shadow: 0 0 10px black;
+    height: 102px;
+    overflow:hidden;
+}
+
+main article div.apresentacao div.container-marcas figure div{
+     width:2450px;
+}
+
+main article div.apresentacao div.container-marcas img{
+    opacity:0;
+    box-shadow: 1px 1px 5px black;
+}
+/* --- MARCAS*/
+
+/* --- RESUMO */
+
+main article div.apresentacao div.resumo div.design{
+    background-color: #e6e6e6;
+    box-shadow:3px 3px 5px black , -1px -1px 1px gray;
+    text-align:center;
+    margin:15px;
+    padding:0 5px;
+    border-radius: 20px;
+}
+
+
+main article div.apresentacao div.resumo div#bloco-manutencao{
+    opacity: 0;
+    width:120%;
+    overflow:auto;
+}
+
+main article div.apresentacao div.resumo div#bloco-aco{
+    margin-bottom:30px;
+}
+
+main article div.apresentacao div.resumo div#bloco-portao ,
+main article div.apresentacao div.resumo div#bloco-manutencao,
+main article div.apresentacao div.resumo div#bloco-controle,
+main article div.apresentacao div.resumo div#bloco-engrenagem,
+main article div.apresentacao div.resumo div#bloco-central,
+main article div.apresentacao div.resumo div#bloco-aco{
+    opacity: 0;
+}
+
+main article div.apresentacao div.resumo div.container-horizontal{
+    display: flex;
+    justify-content: center;
+
+}
+
+main article div.apresentacao div.resumo div.container-vertical{
+    display: flex;
+    flex-direction: column;
+}
+
+main article div.apresentacao div.resumo h3{
+    font-size:25px;
+}
+
+main article div.apresentacao div.resumo p {
+    font-size:17px;
+}
+
+main article div.apresentacao div.resumo div{
+    position:relative;
+}
+
+main article div.apresentacao div.resumo img#engrenagem{
+    max-width:230px;
+    margin: 1px auto;
+}
+
+
+/* --- RESUMO */
+
+/* --- REDE SOCIAL */
+
+main article div.apresentacao div#rede-social{
+      width:80%;
+      margin:1px auto;
+      opacity: 0
+}
+
+main article div.apresentacao div#rede-social div#compartilhar{
+    text-align:center;
+}
+
+main article div.apresentacao div#rede-social div#compartilhar div{
+    display:inline-block;
+    margin:0 4px;
+}
+main article div.apresentacao div#rede-social div#compartilhar div#facebook{
+    position:relative;
+    top:-14px;
+
+}
+
+
+/* --- REDE SOCIAL */
+
+/* --- GOSTOU */
+
+
+  main article div.apresentacao div.gostou {
+      opacity:0;
+  }
+  main article div.apresentacao div.gostou h4{
+      text-align: center;
+      font-size:30px;
+  }
+
+  main article div.apresentacao div.gostou div.gostou-horizontal{
+      display: flex;
+      justify-content: center;
+  }
+
+  main article div.apresentacao div.gostou div.gostou-horizontal{
+      margin-top:-40px;
+  }
+  main article div.apresentacao div.gostou div.gostou-horizontal p{
+      font-size:33px;
+      width:500px;
+      margin-left:-50px;
+  }
+  main article div.apresentacao div.gostou div.gostou-horizontal img#joinha {
+      width:300px;
+      height:255px;
+      margin-left:-90px;
+   }
+  main article div.apresentacao div.gostou div.gostou-horizontal table{
+      margin-top:50px;
+  }
+
+
+/* --- GOSTOU */
+
+/* --- FOOTER*/
+
+  footer{
+      margin:0;
+      padding:0;
+      width: 100%;
+      text-align: center;
+  }
+  footer div{
+      position: relative;
+      display:inline-block;
+      background-color:lightgray;
+      font-family:'titulo', Verdana, sans-serif;
+      opacity: 0;
+      box-shadow: 1px 1px 4px black;
+  }
+  div#esquerda{
+      border-radius: 0 4em 0 4em;
+      width:24%;
+  }
+  div#centro{
+      border-bottom-left-radius:40px 100px;
+      border-bottom-right-radius:40px 100px;
+      width: 50%;
+  }
+  div#direita{
+      border-radius: 4em 0 4em 0;
+      width:24%;
+  }
+
+  div#direita span , div#esquerda span{
+      color:blue;
+      text-decoration: underline;
+      cursor: pointer;
+  }
+
+  /* ---- FOOTER*/
+
+  /* --- DESENVOLVEDOR */
+
+#desenvolvedor {
+    visibility: hidden;
+    font-family:'paragrafo',Verdana,sans-serif;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#desenvolvedor.mostrar {
+    visibility: visible;
+    animation: fadein 0.5s, fadeout 0.5s 9.5s;
+}
+
+/* --- DESENVOLVEDOR */
+
+/* --- NÃO ATENDO EM CONDOMINIOS */
+.janela {
+    opacity: 0;
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0);
+}
+.janela-conteudo {
+    opacity:0;
+    position: relative;
+    top:100px;
+    background-color: #ff4d4d;
+    font-family: 'paragrafo', Verdana, sans-serif;
+    text-align:center;
+    line-height: 0.1;
+    color:white;
+    margin: auto;
+    padding: 0;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    border: 5px inset red;
+}
+.janela-conteudo p {
+    padding-bottom: 25px;
+}
+.janela-conteudo img{
+    margin-top:-45px;
+    width: 30%;
+    opacity: 0.8;
+    height: auto;
+}
+.janela-conteudo h5{
+    font-size:30px;
+}
+/* --- NÃO ATENDO EM CONDOMINIOS */
+
+
+
+
